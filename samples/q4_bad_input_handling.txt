@@ -1,0 +1,42 @@
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): abc
+Invalid input. Please enter a whole number between 1 and 6.
+Enter your choice (1-6): 1
+Enter your name: Sam
+Enter your account number: 77
+Enter your initial deposit (must be greater than 0): R0
+Invalid input. Please enter a number greater than 0.
+Enter your initial deposit (must be greater than 0): R-50
+Invalid input. Please enter a number greater than 0.
+Enter your initial deposit (must be greater than 0): Rabc
+Invalid input. Please enter a number greater than 0.
+Enter your initial deposit (must be greater than 0): R250
+Account created successfully!
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): 3
+Enter amount to withdraw: R900
+Insufficient funds. Current balance: R250.00
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): 6
+Exiting the system. Goodbye!

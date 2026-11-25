@@ -1,0 +1,30 @@
+Welcome to the Online Shopping Cart System
+Please enter your name: Thandi
+
+Menu:
+1. Coffee - R15.00
+2. Sandwich - R30.00
+3. Salad - R25.00
+4. Juice - R10.00
+5. Muffin - R20.00
+6. Pizza Slice - R35.00
+7. Soup - R18.00
+8. Burger - R40.00
+
+Select an item by number (1-8): 1
+Enter the quantity: 2
+Would you like to add another item? (y/n): y
+
+Select an item by number (1-8): 8
+Enter the quantity: 5
+Would you like to add another item? (y/n): n
+
+Customer Name: Thandi
+Items:
+  2 x Coffee @ R15.00 = R30.00
+  5 x Burger @ R40.00 = R200.00
+Total Cost: R230.00
+Discount: R11.50
+Final Total after Discount: R218.50
+
+The bill has been successfully written to ShoppingCartBill.txt

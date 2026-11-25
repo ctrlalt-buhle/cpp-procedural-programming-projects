@@ -1,0 +1,59 @@
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): 1
+Enter your name: Test User
+Enter your account number: 012345
+Enter your initial deposit (must be greater than 0): R1000
+Account created successfully!
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): 2
+Enter amount to deposit: R500
+Amount deposited successfully. New balance: R1500.00
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): 3
+Enter amount to withdraw: R2000
+Insufficient funds. Current balance: R1500.00
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): 5
+
+--- Account Details ---
+Account Holder: Test User
+Account Number: 12345
+Current Balance: R1500.00
+
+--- Bank Account Management System ---
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Check Balance
+5. Display Account Details
+6. Exit
+Enter your choice (1-6): 6
+Exiting the system. Goodbye!

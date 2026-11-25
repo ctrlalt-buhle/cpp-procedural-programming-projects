@@ -1,0 +1,19 @@
+# Build output
+build/
+*.o
+*.exe
+*.out
+
+# Files the programs create when run
+CafeteriaBill.txt
+ShoppingCartBill.txt
+
+# Visual Studio / editors
+.vs/
+*.suo
+*.VC.db
+*.vcxproj.user
+.vscode/
+.idea/
+desktop.ini
+.DS_Store

@@ -1,0 +1,15 @@
+cmake_minimum_required(VERSION 3.10)
+project(procedural_programming_cpp CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+foreach(prog q1_cafeteria_order_system q2_shopping_cart q3_student_scores q4_bank_account_system)
+  add_executable(${prog} src/${prog}.cpp)
+  target_include_directories(${prog} PRIVATE src)
+  if(MSVC)
+    target_compile_options(${prog} PRIVATE /W4)
+  else()
+    target_compile_options(${prog} PRIVATE -Wall -Wextra -Wpedantic)
+  endif()
+endforeach()
